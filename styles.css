@@ -1,2 +1,27 @@
+.container{
 
-/* Your CSS Code here. */
+    display: grid;
+grid-template-columns: repeat(2,200px);
+grid-template-rows: repeat(2,200px);
+background-color: blueviolet;
+row-gap: 5px;
+border-radius: 5px;
+}
+.items1{
+background-color: aquamarine;
+
+}
+
+.items2{
+    background-color: rgb(33, 12, 109);
+    
+    }
+    .items3{
+        background-color: rgb(6, 167, 46);
+        
+        }
+        .items4{
+            background-color: rgb(6, 46, 32);
+            
+            }
+            
